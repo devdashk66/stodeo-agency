@@ -1,4 +1,5 @@
 import Hero from "./components/hero/Hero";
+import WelcomeSection from "./components/welcomeSection/WelcomeSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,10 @@ export default function Home() {
         title="We have the best solution for your business to grow."
         bgColor="#ffffff"
       />
+      {/*////////////////////////////////////////////
+        —————————————— Welcome Section ——————————————
+      ///////////////////////////////////////////////*/}
+      <WelcomeSection />
     </>
   );
 }
