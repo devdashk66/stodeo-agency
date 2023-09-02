@@ -8,7 +8,7 @@ const Header = () => {
       {/*////////////////////////////////////////////
       ——————————————— Header section ———————————————
       ///////////////////////////////////////////////*/}
-      <header className="flex justify-between items-center max-w-screen-2xl m-auto py-5 px-8 relative">
+      <header className="flex justify-between items-center max-w-screen-2xl m-auto py-5 px-8 relative ">
         {/*////////////////////////////////////////////
            ————————————————— Logo —————————————————
         ///////////////////////////////////////////////*/}

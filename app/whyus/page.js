@@ -1,9 +1,10 @@
 import React from "react";
+import Hero from "../components/hero/Hero";
 
 const whyus = () => {
   return (
     <>
-      <h1>Why Us</h1>
+      <Hero pageName="WHY US" title="Benifits of using Stodeo" />
     </>
   );
 };

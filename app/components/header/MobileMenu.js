@@ -31,9 +31,9 @@ const MobileMenu = () => {
         ————————————— Mobile Navigation —————————————
       ///////////////////////////////////////////////*/}
       <ul
-        className={`lg:hidden absolute top-0 ${
-          click ? "right-0 opacity-100" : "-right-[1000px] opacity-0"
-        } bg-white py-16 px-8 gap-5 w-56 h-screen shadow-2xl flex flex-col ease-in-out duration-200`}
+        className={`lg:hidden fixed top-0 ${
+          click ? "right-0 opacity-100" : "-right-56 opacity-0"
+        } bg-white py-16 px-8 gap-5 w-56 h-screen shadow-2xl z-10 flex flex-col ease-out duration-700`}
       >
         {/*////////////////////////////////////////////
         ————————————— Menu Close Button —————————————
@@ -50,6 +50,7 @@ const MobileMenu = () => {
         ///////////////////////////////////////////////*/}
         <li>
           <Link
+            onClick={() => setClick(!click)}
             className="hover:text-[#3369e7] ease-in-out duration-200"
             href="/"
           >
@@ -58,6 +59,7 @@ const MobileMenu = () => {
         </li>
         <li>
           <Link
+            onClick={() => setClick(!click)}
             className="hover:text-[#3369e7] ease-in-out duration-200"
             href="/whyus"
           >
@@ -66,6 +68,7 @@ const MobileMenu = () => {
         </li>
         <li>
           <Link
+            onClick={() => setClick(!click)}
             className="hover:text-[#3369e7] ease-in-out duration-500"
             href="/services"
           >
@@ -74,6 +77,7 @@ const MobileMenu = () => {
         </li>
         <li>
           <Link
+            onClick={() => setClick(!click)}
             className="hover:text-[#3369e7] ease-in-out duration-200"
             href="/gallery"
           >
@@ -82,6 +86,7 @@ const MobileMenu = () => {
         </li>
         <li>
           <Link
+            onClick={() => setClick(!click)}
             className="hover:text-[#3369e7] ease-in-out duration-200"
             href="/about"
           >
@@ -90,6 +95,7 @@ const MobileMenu = () => {
         </li>
         <li>
           <Link
+            onClick={() => setClick(!click)}
             className="hover:text-[#3369e7] ease-in-out duration-200"
             href="/contact"
           >
