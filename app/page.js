@@ -1,5 +1,7 @@
+"use client";
 import Hero from "./components/hero/Hero";
 import WelcomeSection from "./components/welcomeSection/WelcomeSection";
+import WhyStodeo from "./components/whyStodeo/WhyStodeo";
 
 export default function Home() {
   return (
@@ -16,6 +18,10 @@ export default function Home() {
         —————————————— Welcome Section ——————————————
       ///////////////////////////////////////////////*/}
       <WelcomeSection />
+      {/*////////////////////////////////////////////
+        ———————————— Why Stodeo Section ————————————
+      ///////////////////////////////////////////////*/}
+      <WhyStodeo />
     </>
   );
 }

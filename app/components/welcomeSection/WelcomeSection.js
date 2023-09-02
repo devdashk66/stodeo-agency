@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../button/Button";
 
 const WelcomeSection = () => {
   return (
@@ -26,14 +27,7 @@ const WelcomeSection = () => {
             Vokalia and Consonantia, there live the blind texts.
           </p>
           {/* Button with a link */}
-          <button>
-            <Link
-              className="px-8 py-2 mt-6 block text-white border-2 border-[#00aaff] rounded-full hover:bg-[#00aaff] duration-300 "
-              href="/contact"
-            >
-              Get started
-            </Link>
-          </button>
+          <Button title="About us" />
         </div>
       </section>
     </>
