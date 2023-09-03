@@ -1,6 +1,7 @@
 "use client";
 import Hero from "./components/hero/Hero";
 import WelcomeSection from "./components/welcomeSection/WelcomeSection";
+import WhyChooseUs from "./components/whyChooseUs/WhyChooseUs";
 import WhyStodeo from "./components/whyStodeo/WhyStodeo";
 
 export default function Home() {
@@ -22,6 +23,10 @@ export default function Home() {
         ———————————— Why Stodeo Section ————————————
       ///////////////////////////////////////////////*/}
       <WhyStodeo />
+      {/*////////////////////////////////////////////
+        ——————————————— Why Choose Us ———————————————
+      ///////////////////////////////////////////////*/}
+      <WhyChooseUs />
     </>
   );
 }

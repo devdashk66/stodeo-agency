@@ -27,7 +27,7 @@ const WelcomeSection = () => {
             Vokalia and Consonantia, there live the blind texts.
           </p>
           {/* Button with a link */}
-          <Button title="About us" />
+          <Button title="About us" color="#ffffff" />
         </div>
       </section>
     </>
