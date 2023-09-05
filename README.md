@@ -20,8 +20,30 @@ You can check out the live demo of the Stodeo template [here](https://stodeo-age
 
 To get started with Stodeo, follow these steps:
 
-1. Clone the repository:
+1. First clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/devdashk66/stodeo-agency.git
    ```
+
+## Getting Started
+
+Then, run the development server:
+
+```
+npm run dev
+```
+
+# or
+
+```
+yarn dev
+```
+
+# or
+
+```
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
