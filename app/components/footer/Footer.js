@@ -11,8 +11,8 @@ import {
 
 const Footer = () => {
   return (
-    <>
-      <section className="py-8 px-8 bg-[#efefef]">
+    <section className=" bg-[#efefef]">
+      <div className="max-w-screen-2xl m-auto py-8 px-8">
         <div className="flex justify-between lg:flex-row flex-col gap-12 lg:gap-0">
           {/* About Stodeo */}
           <div>
@@ -123,18 +123,21 @@ const Footer = () => {
         <div className="text-center mt-8 flex flex-col">
           <span>
             Copyright ©2023 All rights reserved | This template is made for
-            practice purposes by Dev
+            practice purposes by{" "}
+            <a target="_blank" href="https://www.linkedin.com/in/devdashk66/">
+              <span className="text-[#3369e7] font-bold">Dev</span>
+            </a>
           </span>
           <a
             className="text-xs"
             href="https://preview.colorlib.com/#stodeo"
-            _blank
+            target="_blank"
           >
             Orginal Site Link
           </a>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 
