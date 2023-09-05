@@ -5,7 +5,9 @@ const RecentBlog = () => {
   return (
     <>
       {/* Section containing recent blog posts */}
-      <section className={`px-8 m-auto py-44 flex flex-col gap-8`}>
+      <section
+        className={`px-8 m-auto py-44 flex flex-col gap-8 overflow-x-hidden`}
+      >
         {/* Section title */}
         <div data-aos="fade-left" data-aos-duration="1200">
           <span className="text-[#00aaff]">Our Blogs</span>
@@ -21,7 +23,6 @@ const RecentBlog = () => {
           <div
             data-aos="fade-left"
             data-aos-duration="1200"
-            data-aos-delay="300"
             className="w-full lg:w-80 flex flex-col gap-2"
           >
             {/* Date */}
@@ -45,8 +46,7 @@ const RecentBlog = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="1200"
-            data-aos-delay="400"
+            data-aos-duration="1400"
             className="w-full lg:w-80 flex flex-col gap-2"
           >
             {/* Date */}
@@ -70,8 +70,7 @@ const RecentBlog = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="1200"
-            data-aos-delay="500"
+            data-aos-duration="1600"
             className="w-full lg:w-80 flex flex-col gap-2"
           >
             {/* Date */}
@@ -95,8 +94,7 @@ const RecentBlog = () => {
           </div>
           <div
             data-aos="fade-left"
-            data-aos-duration="1200"
-            data-aos-delay="600"
+            data-aos-duration="1800"
             className="w-full lg:w-80 flex flex-col gap-2"
           >
             {/* Date */}

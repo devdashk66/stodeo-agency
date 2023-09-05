@@ -3,6 +3,7 @@
 // Importing various components used in the Home component
 import Hero from "./components/hero/Hero";
 import RecentBlog from "./components/recentBlog/RecentBlog";
+import WeAwesome from "./components/weAwesome/WeAwesome";
 import WelcomeSection from "./components/welcomeSection/WelcomeSection";
 import WhyChooseUs from "./components/whyChooseUs/WhyChooseUs";
 import WhyStodeo from "./components/whyStodeo/WhyStodeo";
@@ -29,6 +30,8 @@ export default function Home() {
 
       {/* Recent Blog Section */}
       <RecentBlog />
+      {/* We Awesome Section */}
+      <WeAwesome />
     </>
   );
 }
