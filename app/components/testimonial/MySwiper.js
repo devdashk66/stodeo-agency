@@ -6,6 +6,7 @@ import Image from "next/image";
 export default function MySwiper() {
   return (
     <>
+      {/* Initialize Swiper */}
       <Swiper
         pagination={{
           dynamicBullets: true,
@@ -17,6 +18,7 @@ export default function MySwiper() {
         autoplay={{ delay: 3000 }}
       >
         <div className="max-w-screen-2xl m-auto text-center">
+          {/* Slide Start */}
           <SwiperSlide>
             <div className="flex flex-col items-center max-w-3xl w-[90%] m-auto text-center py-8">
               <Image

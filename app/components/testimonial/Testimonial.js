@@ -3,6 +3,7 @@ import MySwiper from "./MySwiper";
 const Testimonial = () => {
   return (
     <>
+      {/* Testimonial section */}
       <section className="max-w-screen-2xl m-auto px-8 overflow-x-hidden gap-5 lg:gap-0 py-44">
         <div className="flex items-center flex-col mb-8">
           {/* Section title */}
@@ -14,6 +15,7 @@ const Testimonial = () => {
           </h1>
         </div>
         <div>
+          {/* Include the Swiper component for testimonials */}
           <MySwiper />
         </div>
       </section>
