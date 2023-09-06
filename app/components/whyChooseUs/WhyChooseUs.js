@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
   return (
     <>
       {/* Section containing content */}
-      <section className="flex max-w-screen-2xl m-auto px-8 flex-col lg:flex-row text-white justify-center overflow-x-hidden">
+      <section className="flex max-w-screen-2xl m-auto px-8 py-20 flex-col lg:flex-row text-white justify-center overflow-x-hidden">
         {/* Left-side content with image */}
         <div data-aos="fade-right" className="">
           {/* Image component */}

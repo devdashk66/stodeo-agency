@@ -4,7 +4,7 @@ const Testimonial = () => {
   return (
     <>
       {/* Testimonial section */}
-      <section className="max-w-screen-2xl m-auto px-8 overflow-x-hidden gap-5 lg:gap-0 py-44">
+      <section className="max-w-screen-2xl m-auto px-8 overflow-x-hidden gap-5 lg:gap-0 py-20">
         <div className="flex items-center flex-col mb-8">
           {/* Section title */}
           <span className="text-[#00aaff]">Testimonial</span>

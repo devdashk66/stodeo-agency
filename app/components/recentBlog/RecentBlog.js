@@ -6,7 +6,7 @@ const RecentBlog = () => {
     <>
       {/* Section containing recent blog posts */}
       <section
-        className={`px-8 m-auto py-44 flex flex-col gap-8 overflow-x-hidden`}
+        className={`px-8 m-auto py-20 flex flex-col gap-8 overflow-x-hidden`}
       >
         {/* Section title */}
         <div data-aos="fade-left" data-aos-duration="1200">

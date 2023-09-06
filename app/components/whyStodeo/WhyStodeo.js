@@ -5,7 +5,7 @@ const WhyStodeo = () => {
   return (
     <>
       {/* Section containing content and a Button */}
-      <section className="flex lg:justify-around lg:items-center max-w-screen-2xl m-auto py-44 px-8 gap-16 lg:gap-0 flex-col lg:flex-row">
+      <section className="flex lg:justify-around lg:items-center max-w-screen-2xl m-auto py-20 px-8 gap-16 lg:gap-0 flex-col lg:flex-row">
         {/* Left-side content */}
         <div className="">
           <p

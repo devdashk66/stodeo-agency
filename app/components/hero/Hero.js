@@ -15,7 +15,7 @@ const Hero = ({ pageName, title, bgColor = "#f8f9fa" }) => {
   return (
     <>
       <section
-        className={`px-8 text-center m-auto flex justify-center items-center flex-col py-44 gap-3   bg-[${bgColor}]`}
+        className={`px-8 text-center m-auto flex justify-center items-center flex-col py-40 gap-3 bg-[${bgColor}]`}
       >
         {/* ————————————— Page Name ————————————— */}
         <span

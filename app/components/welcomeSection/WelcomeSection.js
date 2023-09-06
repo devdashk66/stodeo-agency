@@ -6,7 +6,7 @@ const WelcomeSection = () => {
   return (
     <>
       {/* Section containing an image and a text box */}
-      <section className="flex  items-start max-w-screen-2xl m-auto lg:px-8 flex-col lg:flex-row px-8 relative">
+      <section className="flex  items-start max-w-screen-2xl m-auto lg:px-8 flex-col lg:flex-row px-8 py-20 relative">
         {/* Image on the left */}
         <Image
           className="w-full lg:w-2/4 -mb-10 lg:-mb-0"
@@ -27,7 +27,9 @@ const WelcomeSection = () => {
             Vokalia and Consonantia, there live the blind texts.
           </p>
           {/* Button with a link */}
-          <Button title="About us" color="#ffffff" />
+          <div className="text-white">
+            <Button title="About us" />
+          </div>
         </div>
       </section>
     </>

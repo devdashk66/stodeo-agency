@@ -10,7 +10,7 @@ const WeAwesome = () => {
   return (
     <>
       {/* Section containing content */}
-      <section className="flex max-w-screen-2xl m-auto px-8 flex-col lg:flex-row justify-center overflow-x-hidden gap-5 lg:gap-0">
+      <section className="flex max-w-screen-2xl m-auto px-8 py-20 flex-col lg:flex-row justify-center overflow-x-hidden gap-5 lg:gap-0">
         {/* Left-side content */}
         <div
           data-aos="fade-right"

@@ -119,23 +119,23 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        {/* Footer Copyright */}
-        <div className="text-center mt-8 flex flex-col">
-          <span>
-            Copyright ©2023 All rights reserved | This template is made for
-            practice purposes by{" "}
-            <a target="_blank" href="https://www.linkedin.com/in/devdashk66/">
-              <span className="text-[#3369e7] font-bold">Dev</span>
-            </a>
-          </span>
-          <a
-            className="text-xs"
-            href="https://preview.colorlib.com/#stodeo"
-            target="_blank"
-          >
-            Orginal Site Link
+      </div>
+      {/* Footer Copyright */}
+      <div className="text-center py-8 flex flex-col bg-gray-600 text-white">
+        <span>
+          Copyright ©2023 All rights reserved | This template is made for
+          practice purposes by{" "}
+          <a target="_blank" href="https://www.linkedin.com/in/devdashk66/">
+            <span className="text-[#3369e7] font-bold">Dev</span>
           </a>
-        </div>
+        </span>
+        <a
+          className="text-xs"
+          href="https://preview.colorlib.com/#stodeo"
+          target="_blank"
+        >
+          Orginal Site Link
+        </a>
       </div>
     </section>
   );
