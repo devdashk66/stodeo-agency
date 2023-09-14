@@ -19,16 +19,12 @@ export default function Home() {
         title="We have the best solution for your business to grow."
         bgColor="#ffffff"
       />
-
       {/* Welcome Section */}
       <WelcomeSection />
-
       {/* Why Stodeo Section */}
       <WhyStodeo />
-
       {/* Why Choose Us Section */}
       <WhyChooseUs />
-
       {/* Recent Blog Section */}
       <RecentBlog />
       {/* We Awesome Section */}

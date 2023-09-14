@@ -26,7 +26,13 @@ To get started with Stodeo, follow these steps:
    git clone https://github.com/devdashk66/stodeo-agency.git
    ```
 
-2. Then, run the development server:
+2. Then, install node modules:
+
+   ```
+   npm i
+   ```
+
+3. And run the development server:
 
    ```
    npm run dev
@@ -44,4 +50,4 @@ To get started with Stodeo, follow these steps:
    pnpm dev
    ```
 
-3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

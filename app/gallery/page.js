@@ -5,7 +5,9 @@ import Gallary from "../components/gallary/Gallary";
 const gallery = () => {
   return (
     <>
+      {/* Hero Section */}
       <Hero pageName="GALLERY" title="Gallery" />
+      {/* Gallary Section */}
       <Gallary />
     </>
   );
